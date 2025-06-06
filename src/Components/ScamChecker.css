@@ -1,0 +1,148 @@
+.quick-check-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .quick-check-container h2 {
+    margin-bottom: 1rem;
+    color: #1e40af;
+  }
+  
+  .input-field {
+    /* width: 100%; */
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid #3b82f6;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+  }
+.url-input{
+    width: 80%;
+}
+  
+  .input-field:focus {
+    border-color: #2563eb;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.6);
+  }
+  
+  .example-text {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.4rem;
+    font-style: italic;
+  }
+  
+  .check-button {
+    margin-top: 1rem;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.6);
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-button:disabled {
+    background-color: #94a3b8;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  .error-message {
+    margin-top: 1rem;
+    color: #dc2626;
+    font-weight: 600;
+    background-color: #fee2e2;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .result-dashboard {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #eff6ff;
+    animation: fadeIn 0.6s ease;
+    border: 1px solid #93c5fd; /* subtle border instead of shadow */
+  }
+  
+  .result-dashboard h3 {
+    color: #1e40af;
+    margin-bottom: 1rem;
+  }
+  
+  .checked-url {
+    font-size: 1.05rem;
+    color: #2563eb;
+    font-weight: 600;
+  }
+  
+  .message {
+    font-size: 1.05rem;
+  }
+  
+  .status {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  .status.safe {
+    color: #166534;
+    background-color: #bbf7d0;
+  }
+  
+  .status.scam {
+    color: #b91c1c;
+    background-color: #fecaca;
+  }
+  
+  .report-section {
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  .report-section h3 {
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+  }
+  
+  .report-button {
+    padding: 10px 26px;
+    font-size: 1.05rem;
+    border-radius: 10px;
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(245, 158, 11, 0.6);
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-button:hover {
+    background-color: #b45309;
+  }
+  
+  /* FadeIn Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

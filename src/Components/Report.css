@@ -1,0 +1,90 @@
+.report-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    background-color: #f9fbfd;
+    color: #333;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .report-hero {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .report-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .report-image {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .report-types h2,
+  .govt-links h2,
+  .check-status h2,
+  .report-reminder h2 {
+    color: #d32f2f;
+    margin-bottom: 1rem;
+  }
+  
+  .report-types ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .report-types li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .govt-sites {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .govt-card {
+    background-color: #fff;
+    border: 1px solid #d32f2f;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .govt-card h3 {
+    color: #102c57;
+  }
+  
+  a {
+    color: #0d47a1;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta-button {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #b71c1c;
+  }
+  

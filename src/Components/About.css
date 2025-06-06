@@ -1,0 +1,69 @@
+.about-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    background-color: #f7f9fb;
+    color: #333;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .about-hero {
+    background-color: #102c57;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-hero h1 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .about-intro,
+  .real-world-scam,
+  .about-mission,
+  .about-how-it-works,
+  .tech-stack,
+  .call-to-action {
+    margin-bottom: 2rem;
+  }
+  
+  .about-intro h2,
+  .real-world-scam h2,
+  .about-mission h2,
+  .about-how-it-works h2,
+  .tech-stack h2,
+  .call-to-action h2 {
+    color: #102c57;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-how-it-works ul {
+    list-style-type: ✅;
+    padding-left: 1.2rem;
+  }
+  
+  .tech-icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+  }
+  
+  .cta-button {
+    background-color: #102c57;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #234d8b;
+  }
+  

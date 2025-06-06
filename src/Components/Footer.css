@@ -1,0 +1,258 @@
+/* Colors */
+:root {
+  --blue: #2563eb;
+  --yellow: #f59e0b;
+  --dark-bg: #111827;
+  --light-bg: #f9fafb;
+  --text-light: #e0e7ff;
+  --text-dark: #1e293b;
+  --link-hover: #b45309;
+}
+
+/* Footer container */
+.footer {
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+  /* padding: 40px 20px 20px; */
+  font-family: Arial, sans-serif;
+}
+.footer-top{
+  margin-top: 20px;
+}
+
+
+.logo {
+  flex-shrink: 0;
+}
+
+.logo-icon {
+  width: 60px;
+  height: auto;
+  display: block;
+}
+/* Top container with newsletter and links side by side */
+.newsletter {
+  flex: 1 1 350px;
+  /* max-width: 350px; */
+  margin: 0 auto; /* centers horizontally */
+  text-align: center;
+  text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.newsletter h2 {
+  color: var(--yellow);
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Input and button in one row */
+.newsletter-input {
+  /* display: flex; */
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter-input input {
+  flex-grow: 1;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.newsletter-input button {
+  margin-top: 20px;
+  background-color: var(--yellow);
+  border: none;
+  color: var(--dark-bg);
+  padding: 12px 22px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(245, 158, 11, 0.7);
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-input button:hover {
+  background-color: #b45309;
+}
+
+/* Confirmation or error message */
+.subscribe-message {
+  font-size: 1rem;
+  color: #d1fae5; /* light green */
+  background-color: #065f46; /* dark green background */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Social buttons below message */
+.newsletter-social {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.newsletter-social button {
+  background: transparent;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.newsletter-social button:hover {
+  background-color: var(--yellow);
+  color: var(--dark-bg);
+}
+
+
+/* Social buttons next to subscribe button */
+.newsletter-social {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-social button {
+  background: transparent;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.newsletter-social button:hover {
+  background-color: var(--yellow);
+  color: var(--dark-bg);
+}
+
+/* Footer links container */
+.footer-links {
+  flex: 2 1 600px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Each link section */
+.link-section {
+  min-width: 150px;
+}
+
+.link-section h3 {
+  color: var(--yellow);
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.link-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Links style */
+.link-section ul li a {
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link-section ul li a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.footer-bottom a {
+  color: var(--text-light);
+  text-decoration: none;
+  margin: 0 6px;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Social icons */
+.social-icons {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  letter-spacing: 8px;
+  user-select: none;
+}
+
+/* Member text */
+.member {
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--yellow);
+}
+
+.gasa-sub {
+  font-weight: normal;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .footer-top {
+    flex-direction: column;
+  }
+  .newsletter,
+  .footer-links {
+    max-width: 100%;
+    flex: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-input {
+    flex-wrap: wrap;
+  }
+  .newsletter-input button {
+    margin-top: 8px;
+    width: 100%;
+  }
+  .newsletter-social {
+    margin-top: 8px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
